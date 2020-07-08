@@ -1,0 +1,33 @@
+HEIGHT = 700
+WIDTH = 1200
+FRAME_RATE = 90
+
+background_image = 'images/goth.jpg'
+starting_resources = 100
+
+# resource font
+RESOURCE_X = WIDTH / 20
+RESOURCE_Y = HEIGHT / 40
+RESOURCE_COLOR = (255, 255, 0)
+RESOURCE_FONT = 'Arial'
+RESOURCE_SIZE = 25
+
+# menu background
+RECT_X = 0
+RECT_Y = 0
+RECT_WIDTH = WIDTH
+RECT_HEIGHT = HEIGHT / 10
+RECT_COLOR = (138, 51, 36)
+
+# buttons
+BUTTON_Y = HEIGHT / 40
+BUTTON_WIDTH = WIDTH * 1 / 7
+BUTTON_HEIGHT = HEIGHT / 20
+BUTTON_FONT = 'Arial'
+BUTTON_SIZE = 15
+BUTTON_TEXT_COLOR = (255, 255, 255)
+BUTTON_COLOR = (238, 99, 99)
+BUTTON1_MESSAGE = " Создать отряд 10$"
+BUTTON1_KEY = "squad"
+BUTTON2_MESSAGE = "Создать армию 25$"
+BUTTON2_KEY = "army"
